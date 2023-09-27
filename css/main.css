@@ -11,19 +11,27 @@
 
   /*MENU*/
 
-  #menu li > a{
-    font-size: 18px;
-    font-weight: bold;
-    color: #3f3f3f;
+  #menu li>a {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3f3f3f;
   }
 
-  #menu form > button{
-    font-size: 18px;
-    font-weight: bold;
+  #menu form>button {
+      font-size: 18px;
+      font-weight: bold;
   }
 
   /*carrosel*/
 
-  .carousel-inner{
-    max-height: 39rem;
+  .carousel-inner {
+      max-height: 39rem;
+  }
+
+  /*Media Querries*/
+
+  @media (max-width:768px) {
+      #intro {
+          width: 90% !important;
+      }
   }
